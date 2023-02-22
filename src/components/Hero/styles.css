@@ -1,0 +1,4 @@
+header::after {
+    content:'';
+    @apply absolute h-[4rem] bg-white bottom-0 inset-x-0
+}

@@ -1,0 +1,3 @@
+.text-image .image:last-of-type {
+    @apply md:absolute left-0 top-16;
+}
