@@ -2,6 +2,9 @@ h1,h2,h3,h4,h5,h6{
     @apply font-markazi tracking-wide;
 }
 
+h1 {
+    @apply font-bold text-7xl text-ripe-lemon;
+}
 
 h3 {
     @apply font-bold text-6xl

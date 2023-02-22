@@ -21,7 +21,7 @@ export const TextImage = (): JSX.Element => {
   ]);
 
   return (
-      <section className={'container flex flex-wrap justify-between mx-auto px-6 md:px-0 my-16 md:mt-16 md:mb-24'}>
+      <section className={'container flex flex-wrap justify-between mx-auto px-6 md:px-0 my-16 md:mt-16 md:mb-32'}>
         <div className={'w-full md:w-1/2 md:pr-16'}>
           {text.map((v,i) => {
             return (

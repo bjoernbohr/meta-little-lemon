@@ -3,7 +3,6 @@ import Dessert1 from '../../assets/img/salad.jpg'
 import Dessert2 from '../../assets/img/bruschetta1.jpg'
 import Dessert3 from '../../assets/img/creme.jpg'
 
-
 interface Menu {
   image: string;
   title: string;
@@ -37,8 +36,6 @@ export const Card = (): JSX.Element => {
       }
     ]
   )
-
-
 
   return (
     <section className={'container flex flex-col md:flex-row items-center justify-between my-16 mx-auto px-6 md:px-0'}>

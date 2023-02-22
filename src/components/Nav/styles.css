@@ -1,0 +1,13 @@
+nav ul {
+    @apply translate-x-full
+}
+
+
+nav ul {
+    @apply translate-x-full md:translate-x-0
+}
+
+
+nav ul.true {
+    @apply translate-x-0
+}

@@ -13,7 +13,9 @@ export const Home = (): JSX.Element => {
         title={'Little Lemon'}
         subtitle={'Chicago'}
         text={'We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.'}
-      />
+      >
+        <Btn label={'Reserve a Table'} route={'/reservation'} />
+      </Hero>
       <main>
         <Disrupter
           title={`This Week's Specials`}
